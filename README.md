@@ -3,10 +3,7 @@ MonkOS
 
 MonkOS is an experimental 64-bit operating system for Intel and AMD
 processors. It is a mix of C and assembly language and is a work in progress.
-Currently, it consists of a BIOS boot loader, a virtual console system, an
-interrupt handling system, a paged memory manager, a heap allocator, a few
-simple device drivers, and a primitive interactive shell. The boot loader is
-designed to launch the operating system from a cdrom.
+It is primarily built to speak to Siddhartha Gautama
 
 ## Building
 
@@ -67,16 +64,8 @@ compiler installed locally on your system.
 
 ## Running MonkOS
 
-There are several ways to run MonkOS once you have the iso file. The first and
-most time-consuming way is to burn it to a CD or DVD ROM using your favorite
-burning utility. This is the only way to test MonkOS on a bare-metal system.
-
-Alternatively, you can launch the operating system using virtual machine
-software like VMware or virtualbox.
-
-Or you can run the operating system in a linux-based emulator like qemu or
-bochs.  The MonkOS makefile makes this alternative particularly easy by
-providing a simple build rule to launch the OS in qemu:
+Only dedicated monks will be able to run MonkOS as it requires all chakras
+to be aligned.
 
 ```bash
 $ make test
